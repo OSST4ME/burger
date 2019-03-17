@@ -1,12 +1,12 @@
 USE burgers_db;
 
-INSERT INTO burgers (burger_name, devoured, dt)
+INSERT INTO burgers (burger_name, devoured)
 VALUES
-("Single Burger", false, CURRENT_TIMESTAMP),
-("Cheese Burger", false, CURRENT_TIMESTAMP),
-("Double-Double Burger", false, CURRENT_TIMESTAMP),
-("Baconator Burger", false, CURRENT_TIMESTAMP),
-("Double_Double Monster-Style Burger", false, CURRENT_TIMESTAMP),
-("Triple Decker Burger", false, CURRENT_TIMESTAMP);
+("Single Burger", false),
+("Cheese Burger", false),
+("Double-Double Burger", false),
+("Baconator Burger", false),
+("Double_Double Monster-Style Burger", false),
+("Triple Decker Burger", false);
 
 select * FROM burgers;
