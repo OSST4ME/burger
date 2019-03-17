@@ -1,2 +1,2 @@
-# burger.osst4me.github.io
+# burger
 Burger App
